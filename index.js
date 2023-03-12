@@ -9,11 +9,11 @@ const server = new Server();
 server.listen();
 
 
-const scrapingJob = new CronJob(process.env.CRON_TIME, () => {
-    console.log('ScrapingJob Executing...')
-    mefPosts();
-    prensaPosts();
-})
+// const scrapingJob = new CronJob(process.env.CRON_TIME, () => {
+//     console.log('ScrapingJob Executing...')
+//     mefPosts();
+//     prensaPosts();
+// })
 
 scrapingJob.start();
 
