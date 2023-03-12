@@ -15,7 +15,7 @@ server.listen();
 //     prensaPosts();
 // })
 
-scrapingJob.start();
+//scrapingJob.start();
 
 
 
